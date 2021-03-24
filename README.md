@@ -1,1 +1,78 @@
-# prework
+# Pre-work - *Memory Game*
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+
+Submitted by: **Angela Wang**
+
+Time spent: **4** hours spent in total
+
+Link to project: https://glitch.com/edit/#!/preworkforcodepath (insert your link here, should start with https://glitch.com...)
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [ ] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+[https://cdn.glitch.com/688e6bee-1822-4be2-8d06-b2783622b40a%2Fezgif.com-gif-maker.gif?v=1616626887604](your-link-here)
+
+
+## Reflection Questions
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+[YOUR ANSWER HERE]
+
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+[YOUR ANSWER HERE] Challenges that I encountered was my button didn't light up and my start and stop button did not switch after it changed to stop.
+I overcome this by double checking script.js and style.css and noticed that my button won't light up because there was an extra # sign and for why my 
+start and stop didn't change back was because I didn't swap my stop and start in function stopgame. My main problem was that I had to double check my code.
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+[YOUR ANSWER HERE] In this prework I noticed that it was mostly copy and paste, is that what actual web developers do or they do make their own codes?
+Also throughout the prework we used different programming languages all together, is that how web development works?
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+[YOUR ANSWER HERE] If I had more hours to work on this project, I would spend more time adding more buttons, more functions so the player feels mre engaged, currently the game is kind of boring,
+maybe add more sound affects, speed up the game in the middle or make it harder for the player so they would want to continue playing.
+
+
+
+## License
+
+    Copyright [Angela Wang]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
